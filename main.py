@@ -6,6 +6,6 @@ def check_internet_connection():
         get('http://google.com', timeout = 3)
         print('connected')
     except exceptions.ConnectionError:
-        print('not connected')
+        print('No conectado')
 
 check_internet_connection()
